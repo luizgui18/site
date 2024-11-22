@@ -1,0 +1,87 @@
+/* Estilo geral do corpo da página */
+body {
+    font-family: 'Arial', sans-serif; /* Define a fonte principal como Arial, com fallback sans-serif */
+    margin: 0; /* Remove margens padrão do navegador */
+    padding: 0; /* Remove padding padrão do navegador */
+    background: url('background-register.jpg') no-repeat center center fixed; /* Define a imagem de fundo, posicionada ao centro e fixa */
+    background-size: cover; /* Faz a imagem de fundo cobrir toda a área visível */
+}
+
+/* Estilo do cabeçalho */
+header {
+    text-align: center; /* Centraliza o conteúdo do cabeçalho */
+    margin: 30px 0; /* Define margens superior e inferior para espaçamento */
+}
+
+/* Estilo do container do logo */
+.logo-container .logo-img {
+    transform: translateY(30px);
+    width: 50px; /* Define a largura do logotipo */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estilo do container principal da seção de login */
+.login-container {
+    text-align: center; /* Centraliza o conteúdo do container */
+    background: rgba(255, 255, 255, 0.9); /* Define um fundo branco com transparência de 90% */
+    border-radius: 10px; /* Arredonda os cantos do container */
+    padding: 30px; /* Adiciona espaçamento interno ao container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona sombra ao container para destacar do fundo */
+    width: 90%; /* Define a largura como 90% da tela */
+    max-width: 400px; /* Define a largura máxima como 400px */
+    margin: 80px auto; /* Centraliza o container vertical e horizontalmente */
+}
+
+/* Estilo dos grupos de entrada do formulário */
+.login-form .form-group {
+    margin-bottom: 20px; /* Adiciona espaço inferior entre os campos */
+}
+
+/* Estilo dos campos de entrada do formulário */
+.login-form input {
+    width: 100%; /* Faz os campos ocuparem toda a largura disponível */
+    padding: 15px; /* Adiciona espaçamento interno nos campos */
+    border: 1px solid #ccc; /* Define uma borda cinza clara */
+    border-radius: 25px; /* Arredonda os cantos dos campos */
+    font-size: 16px; /* Define o tamanho da fonte nos campos */
+    box-sizing: border-box; /* Inclui padding e borda dentro da largura definida */
+}
+
+/* Estilo do botão de acessar */
+.btn-acessar {
+    background-color: #0056FF; /* Define a cor de fundo azul */
+    color: white; /* Define a cor do texto como branco */
+    font-size: 16px; /* Define o tamanho da fonte */
+    padding: 15px; /* Adiciona espaçamento interno ao botão */
+    border: none; /* Remove a borda padrão do botão */
+    border-radius: 25px; /* Arredonda os cantos do botão */
+    cursor: pointer; /* Muda o cursor para "pointer" ao passar o mouse */
+    width: 100%; /* Faz o botão ocupar toda a largura do container */
+    margin-top: 10px; /* Adiciona margem superior */
+    transition: background-color 0.3s; /* Adiciona uma transição suave para a mudança de cor */
+}
+
+/* Estilo do botão ao passar o mouse */
+.btn-acessar:hover {
+    background-color: #003cb3; /* Escurece a cor de fundo ao passar o mouse */
+}
+
+/* Estilo dos links de ajuda */
+.help-links {
+    margin-top: 15px; /* Adiciona espaço acima dos links */
+    display: flex; /* Define os links em uma linha horizontal */
+    justify-content: space-between; /* Distribui os links uniformemente nas extremidades */
+    font-size: 14px; /* Define o tamanho da fonte dos links */
+}
+
+/* Estilo dos links padrão */
+.help-links a {
+    color: #333; /* Define a cor dos links como cinza escuro */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    transition: color 0.3s; /* Adiciona uma transição suave para mudança de cor */
+}
+
+/* Estilo dos links ao passar o mouse */
+.help-links a:hover {
+    color: #0056FF; /* Altera a cor dos links para azul ao passar o mouse */
+}

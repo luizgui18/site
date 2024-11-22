@@ -1,0 +1,95 @@
+/* Estilo global para o corpo da página */
+body {
+    margin: 0; /* Remove a margem padrão do navegador */
+    padding: 0; /* Remove o preenchimento padrão do navegador */
+    font-family: Arial, sans-serif; /* Define a fonte padrão para Arial, com fallback sans-serif */
+    background: url('background-image.jpg') no-repeat center center fixed; /* Define uma imagem de fundo fixada ao centro */
+    background-size: cover; /* Faz a imagem de fundo cobrir todo o fundo */
+}
+
+/* Estilo do cabeçalho (header) */
+header {
+    display: flex; /* Define o layout flexível para alinhar itens no eixo principal */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    padding: 20px; /* Adiciona espaço interno ao redor do cabeçalho */
+    background: transparent; /* Deixa o fundo do cabeçalho transparente */
+}
+
+/* Estilo para o container do logotipo */
+.logo-container {
+    text-align: center; /* Centraliza o conteúdo do container do logotipo */
+}
+
+/* Estilo para a imagem do logotipo */
+.logo-img {
+    transform: translateY(80px);
+    width: 300px; /* Define a largura do logotipo */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estilo do container principal da área de login */
+.login-container {
+    text-align: center; /* Centraliza o conteúdo dentro do container */
+    background: rgba(255, 255, 255, 0.9); /* Fundo branco com transparência */
+    border-radius: 10px; /* Bordas arredondadas do container */
+    padding: 30px; /* Espaço interno ao redor do conteúdo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra para efeito de elevação */
+    width: 90%; /* Define a largura como 90% do tamanho da tela */
+    max-width: 400px; /* Limita a largura máxima do container */
+    margin: 100px auto; /* Centraliza o container vertical e horizontalmente */
+}
+
+/* Estilo para os grupos de campos dentro do formulário */
+.login-form .form-group {
+    margin-bottom: 20px; /* Adiciona espaço entre os campos */
+}
+
+/* Estilo para os campos de entrada do formulário */
+.login-form input {
+    width: 100%; /* Define a largura dos campos para ocupar todo o container */
+    padding: 15px; /* Adiciona espaço interno dentro dos campos */
+    border: 1px solid #ccc; /* Define uma borda cinza ao redor dos campos */
+    border-radius: 25px; /* Deixa os campos com bordas arredondadas */
+    font-size: 16px; /* Define o tamanho da fonte dentro dos campos */
+    box-sizing: border-box; /* Inclui bordas e preenchimento no tamanho total do campo */
+}
+
+/* Estilo do botão de acesso */
+.btn-acessar {
+    background-color: #0056FF; /* Define a cor de fundo azul */
+    color: white; /* Define a cor do texto como branco */
+    font-size: 16px; /* Define o tamanho da fonte */
+    padding: 15px; /* Adiciona espaço interno dentro do botão */
+    border: none; /* Remove bordas do botão */
+    border-radius: 25px; /* Deixa o botão com bordas arredondadas */
+    cursor: pointer; /* Muda o cursor para "mãozinha" ao passar o mouse sobre o botão */
+    width: 100%; /* Faz o botão ocupar toda a largura do container */
+    margin-top: 10px; /* Adiciona espaço acima do botão */
+    transition: background-color 0.3s; /* Cria uma transição suave na cor de fundo ao interagir */
+}
+
+/* Estilo do botão de acesso ao passar o mouse */
+.btn-acessar:hover {
+    background-color: #003cb3; /* Escurece a cor de fundo do botão */
+}
+
+/* Estilo para os links de ajuda */
+.help-links {
+    margin-top: 15px; /* Adiciona espaço acima dos links */
+    display: flex; /* Usa layout flexível para posicionar os links */
+    justify-content: space-between; /* Distribui os links nos extremos do container */
+    font-size: 14px; /* Define o tamanho da fonte dos links */
+}
+
+/* Estilo padrão dos links */
+.help-links a {
+    color: #333; /* Define a cor do texto como cinza escuro */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    transition: color 0.3s; /* Adiciona uma transição suave na cor do texto ao interagir */
+}
+
+/* Estilo dos links ao passar o mouse */
+.help-links a:hover {
+    color: #0056FF; /* Muda a cor do texto para azul */
+}
